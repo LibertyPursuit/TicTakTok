@@ -18,9 +18,9 @@ namespace TicTakTok
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class Display : NavigationWindow
+    public partial class AppDisplay : NavigationWindow
     {
-        public Display()
+        public AppDisplay()
         {
             InitializeComponent();
         }

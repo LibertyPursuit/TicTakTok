@@ -9,12 +9,11 @@ namespace TicTakTok
 {
     class Core
     {
-        private Display _display;
-        //Save allready loaded pages
+        private AppDisplay _display;
+        //Save already loaded pages to entered data can be preserved
         private Dictionary<string, object> Pages;
-        public Core(Display StartUpGUI)
+        public Core(AppDisplay StartUpGUI)
         {
-            StartUpGUI.Show();
             this._display = StartUpGUI;
             this.Pages = new Dictionary<string, object>();
         }
@@ -26,6 +25,7 @@ namespace TicTakTok
             bool isCached = Pages.ContainsKey(Name);
             if (false == isCached)
             {
+                //DataConext not working
                 object Content = null;
                 switch (Name)
                 {

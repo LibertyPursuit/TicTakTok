@@ -18,7 +18,7 @@ namespace TicTakTok
         }
         //inputs(gamefield positions,player inputsource)
             //gamefiled action
-            //user pentalty
+            //user penalty
         //call game state(state id)
             //treverce this logic with game states(duh...)
     }

@@ -8,7 +8,7 @@ using System.ComponentModel;
 
 namespace TicTakTok.Model
 {
-    class _HomeViewModel
+    public class _HomeViewModel
     {
         public string InputDescription = "test";
         private ICommand _ConnectionInit;

@@ -16,7 +16,9 @@ namespace TicTakTok
         protected override void OnStartup(StartupEventArgs e)
         {
             base.OnStartup(e);
-            Core AppCore = new Core(new Display());
+            AppDisplay Display = new AppDisplay();
+            Display.Show();
+            Core AppCore = new Core(Display);
                 AppCore.ViewChange();
         }
     }

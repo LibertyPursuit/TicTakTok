@@ -13,10 +13,10 @@ C:\Users\liberty\source\repos\TicTakTok\TicTakTok\obj\Debug\TicTakTok.exe
 C:\Users\liberty\source\repos\TicTakTok\TicTakTok\obj\Debug\TicTakTok.pdb
 C:\Users\liberty\source\repos\TicTakTok\TicTakTok\obj\Debug\Views\_Game.g.cs
 C:\Users\liberty\source\repos\TicTakTok\TicTakTok\obj\Debug\Views\_Home.g.cs
-C:\Users\liberty\source\repos\TicTakTok\TicTakTok\obj\Debug\Views\Display.g.cs
 C:\Users\liberty\source\repos\TicTakTok\TicTakTok\bin\Debug\Views\_Home.xaml.cs
 C:\Users\liberty\source\repos\TicTakTok\TicTakTok\obj\Debug\Views\_Game.baml
 C:\Users\liberty\source\repos\TicTakTok\TicTakTok\obj\Debug\Views\_Home.baml
-C:\Users\liberty\source\repos\TicTakTok\TicTakTok\obj\Debug\Views\Display.baml
 C:\Users\liberty\source\repos\TicTakTok\TicTakTok\obj\Debug\Views\_Error.g.cs
 C:\Users\liberty\source\repos\TicTakTok\TicTakTok\obj\Debug\Views\_Error.baml
+C:\Users\liberty\source\repos\TicTakTok\TicTakTok\obj\Debug\Views\AppDisplay.g.cs
+C:\Users\liberty\source\repos\TicTakTok\TicTakTok\obj\Debug\Views\AppDisplay.baml

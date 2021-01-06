@@ -68,7 +68,7 @@
       <Generator>MSBuild:Compile</Generator>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Page>
-    <Page Include="Views\Display.xaml">
+    <Page Include="Views\AppDisplay.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -95,8 +95,8 @@
       <DependentUpon>_Home.xaml</DependentUpon>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>
-    <Compile Include="Views\Display.xaml.cs">
-      <DependentUpon>Display.xaml</DependentUpon>
+    <Compile Include="Views\AppDisplay.xaml.cs">
+      <DependentUpon>AppDisplay.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
