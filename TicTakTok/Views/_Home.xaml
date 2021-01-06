@@ -1,0 +1,28 @@
+﻿<Page x:Class="TicTakTok.Views.Home"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TicTakTok"
+      mc:Ignorable="d"
+      Title="Start" Width="410" Height="325" Name="Display">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid Height="62" Width="270">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button Name="ConnectionPost" Command="{Binding Path=ConnectionInit}" Content="State" HorizontalAlignment="Left" Width="91" Grid.Column="1" Grid.Row="1" Margin="10,0,0,0"/>
+            <TextBox Name="UserName" HorizontalAlignment="Left" Text="User Name" Width="168" Grid.Row="1" Margin="2,3,0,0" Height="25" VerticalAlignment="Top"/>
+            <Label Name="ConnectionInfo" Content="{Binding InputDescription}" VerticalAlignment="Top" Height="29" HorizontalAlignment="Left" Width="170" Padding="0,2,0,0" FontSize="18"/>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="32"/>
+            </Grid.RowDefinitions>
+        </Grid>
+    </Grid>
+</Page>
